@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MotivationPlus</title>
+    <link
+      rel="shortcut icon"
+      href="assets/creativity.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    +
+    <div class="loader" id="loader">
+      <div class="loader-spinner"></div>
+      <div class="loader-text">Loading inspiration...</div>
+    </div>
+
+    <div class="error-message" id="errorMessage">
+      <div class="error-icon">!</div>
+      <div class="error-text">Something went wrong. Please try again.</div>
+      <button class="error-close-btn">×</button>
+    </div>
+
+    <div class="quote-container">
+      <div class="quote">
+        <img src="assets/quote-left.png" alt="quote" class="quote-mark" />
+        <div class="quote-content">
+          This is the sample Quote Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Molestias, perferendis?
+        </div>
+      </div>
+      <div class="author">Sample Author</div>
+      <div class="button-container">
+        <div class="social-btn">
+          <button class="social-button twitter">
+            <img src="assets/twitter.png" alt="Twitter" />
+          </button>
+          <button class="social-button whatsapp">
+            <img src="assets/whatsapp.png" alt="WhatsApp" />
+          </button>
+        </div>
+
+        <div class="next-btn">
+          <button>Next</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
